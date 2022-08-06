@@ -143,7 +143,13 @@ const user = mongoose.Schema({
             groupName : {
                 type : String
             }
-        }]
+        }],
+    'isAdmin': {
+        type: Boolean,
+        required: true,
+        default: false,
+    },
+    //user group chat admin or not 
 });
 
 user.plugin(passportLocalMongoose);

@@ -1,15 +1,15 @@
-import React from 'react'
+import React ,{useEffect } from 'react'
 import { MdOutlineAddIcCall, MdOutlineVideocam } from 'react-icons/md'
 import { BsThreeDotsVertical } from 'react-icons/bs'
-import { useEffect } from 'react'
+import axios from 'axios';
 
 function Center() {
-  const fetchChats = async() => {
-  const data =await axios.get('/api/chatS')
-}
-  useEffect(() => {
-  
-})
+//   const fetchChats = async() => {
+//   const data =await axios.get('/chat')
+// }
+//   useEffect(() => {
+//     fetchChats();
+// })
 
 
 
